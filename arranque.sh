@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install  nmon  sysstat  regina-rexx  unzip  openssh-server  vim ant net-tools
+sudo apt install -y nmon  sysstat  regina-rexx  unzip  openssh-server  vim ant net-tools
 
 mkdir $HOME/si2
 cd $HOME/si2
@@ -9,25 +9,28 @@ cd $HOME/si2
 #Install java8
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update
-sudo apt install oracle-java8-installer &
+sudo apt install -y oracle-java8-installer 
 
 #Download and install glassfish
 mkdir temp
 cd temp
-wget http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip
+
+wget http://apache.cbox.biz//jmeter/binaries/apache-jmeter-5.0.tgz &
+wget https://www.vmware.com/go/getplayer-linux &
+wget http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip 
+
 sudo unzip glassfish-4.1.2.zip -d /opt
 sudo chmod -R a+rwX /opt/glassfish4 
 
-sudo apt install -y postgresql tora libqt4-sql-psql libpostgresql-jdbc-java &
+sudo apt install -y postgresql tora libqt4-sql-psql libpostgresql-jdbc-java 
 
-wget http://apache.cbox.biz//jmeter/binaries/apache-jmeter-5.0.tgz
 tar -xzvf apache-jmeter-5.0.tgz
 mv apache-jmeter-5.0 ../ &
 export PATH="$PATH:$HOME/apache-jmeter-5.0/bin"
 
-wget https://www.vmware.com/go/getplayer-linux
+
 sudo chmod +x VMware-Player-15.0.2-10952284.x86_64.bundl
-sudo sh VMware-Player-15.0.2-10952284.x86_64.bundl &
+sudo sh VMware-Player-15.0.2-10952284.x86_64.bundl 
 
 #tar –xzvf /opt/si2/si2srv.tgz
 if [ ! -f si2srv.tgz ]; then

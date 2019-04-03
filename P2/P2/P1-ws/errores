@@ -1,0 +1,295 @@
+
+BUILD FAILED
+/home/roman/Downloads/si2/P1/P1-ws/build.xml:105: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Buildfile: /home/roman/Downloads/si2/P1/P1-ws/build.xml
+
+montar-jerarquia:
+
+compilar-cliente:
+    [javac] Compiling 13 source files to /home/roman/Downloads/si2/P1/P1-ws/build/client/WEB-INF/classes
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:30: error: cannot find symbol
+    [javac] import ssii2.visa.PagoBean;
+    [javac]                  ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:118: error: cannot find symbol
+    [javac]     private boolean validaParametros(PagoBean pago) {
+    [javac]                                      ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ComienzaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:149: error: cannot find symbol
+    [javac]     private PagoBean creaPago(HttpServletRequest request) {
+    [javac]             ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ComienzaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:19: error: cannot find symbol
+    [javac] import ssii2.visa.PagoBean;
+    [javac]                  ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:20: error: cannot find symbol
+    [javac] import ssii2.visa.VisaDAOWS;
+    [javac]                  ^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:21: error: cannot find symbol
+    [javac] import ssii2.visa.VisaDAOWSService;
+    [javac]                  ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:19: error: cannot find symbol
+    [javac] import ssii2.visa.PagoBean;
+    [javac]                  ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:20: error: package ssii2.visa.dao does not exist
+    [javac] import ssii2.visa.dao.VisaDAO;
+    [javac]                      ^
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:22: error: cannot find symbol
+    [javac] import ssii2.visa.VisaDAOWS;
+    [javac]                  ^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:23: error: cannot find symbol
+    [javac] import ssii2.visa.VisaDAOWSService;
+    [javac]                  ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:49: error: cannot find symbol
+    [javac] import ssii2.visa.VisaDAOWS; // Stub generado automaticamente
+    [javac]                  ^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:204: error: cannot find symbol
+    [javac]     private TarjetaBean creaTarjeta(HttpServletRequest request) {
+    [javac]             ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:220: error: cannot find symbol
+    [javac]     private PagoBean creaPago(HttpServletRequest request) {
+    [javac]             ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisa.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisa.java:19: error: cannot find symbol
+    [javac]     protected TarjetaBean tarjeta;
+    [javac]               ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisa.java:26: error: cannot find symbol
+    [javac]     protected ErrorVisa(TarjetaBean t, String causa) {
+    [javac]                         ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisa.java:35: error: cannot find symbol
+    [javac]     public TarjetaBean getTarjeta() {
+    [javac]            ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisa.java:43: error: cannot find symbol
+    [javac]     public void setTarjeta(TarjetaBean t) {
+    [javac]                            ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaCVV.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaCVV.java:17: error: cannot find symbol
+    [javac]     public ErrorVisaCVV(TarjetaBean t, String causa) {
+    [javac]                         ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisaCVV
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaFechaCaducidad.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaFechaCaducidad.java:17: error: cannot find symbol
+    [javac]     public ErrorVisaFechaCaducidad(TarjetaBean t, String causa) {
+    [javac]                                    ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisaFechaCaducidad
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaFechaEmision.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaFechaEmision.java:17: error: cannot find symbol
+    [javac]     public ErrorVisaFechaEmision(TarjetaBean t, String causa) {
+    [javac]                                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisaFechaEmision
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaNumero.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaNumero.java:17: error: cannot find symbol
+    [javac]     public ErrorVisaNumero(TarjetaBean t, String causa) {
+    [javac]                            ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisaNumero
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaTitular.java:9: error: cannot find symbol
+    [javac] import ssii2.visa.TarjetaBean;
+    [javac]                  ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/error/ErrorVisaTitular.java:17: error: cannot find symbol
+    [javac]     public ErrorVisaTitular(TarjetaBean t, String causa) {
+    [javac]                             ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ErrorVisaTitular
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/filtros/CompruebaSesion.java:22: error: cannot find symbol
+    [javac] import ssii2.visa.PagoBean;
+    [javac]                  ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: package ssii2.visa
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/visa/ValidadorTarjeta.java:70: error: cannot find symbol
+    [javac]     public boolean esValida(TarjetaBean t)
+    [javac]                             ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ValidadorTarjeta
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:79: error: cannot find symbol
+    [javac]         PagoBean pago = creaPago(request);        
+    [javac]         ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ComienzaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:150: error: cannot find symbol
+    [javac]         PagoBean pago = new PagoBean();
+    [javac]         ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ComienzaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ComienzaPago.java:150: error: cannot find symbol
+    [javac]         PagoBean pago = new PagoBean();
+    [javac]                             ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ComienzaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:54: error: cannot find symbol
+    [javac] 		VisaDAOWSService daoserv = new VisaDAOWSService();
+    [javac] 		^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class DelPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:54: error: cannot find symbol
+    [javac] 		VisaDAOWSService daoserv = new VisaDAOWSService();
+    [javac] 		                               ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class DelPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/DelPagos.java:55: error: cannot find symbol
+    [javac] 		VisaDAOWS dao = daoserv.getVisaDAOWSPort();
+    [javac] 		^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: class DelPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:58: error: cannot find symbol
+    [javac]         VisaDAOWSService daoserv = new VisaDAOWSService();
+    [javac]         ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:58: error: cannot find symbol
+    [javac]         VisaDAOWSService daoserv = new VisaDAOWSService();
+    [javac]                                        ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:59: error: cannot find symbol
+    [javac]         VisaDAOWS dao = daoserv.getVisaDAOWSPort();
+    [javac]         ^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:68: error: cannot find symbol
+    [javac]         PList<PagoBean> pagoslst = dao.getPagos(idComercio);     
+    [javac]         ^
+    [javac]   symbol:   class PList
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:68: error: cannot find symbol
+    [javac]         PList<PagoBean> pagoslst = dao.getPagos(idComercio);     
+    [javac]               ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:70: error: cannot find symbol
+    [javac]         ArrayList<PagoBean> arraylistPagos = new ArrayList<PagoBean>(pagoslst.size());
+    [javac]                   ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:70: error: cannot find symbol
+    [javac]         ArrayList<PagoBean> arraylistPagos = new ArrayList<PagoBean>(pagoslst.size());
+    [javac]                                                            ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:72: error: cannot find symbol
+    [javac]         PagoBean[] pagos = new PagoBean[arraylistPagos.size()];
+    [javac]         ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/GetPagos.java:72: error: cannot find symbol
+    [javac]         PagoBean[] pagos = new PagoBean[arraylistPagos.size()];
+    [javac]                                ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class GetPagos
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:144: error: cannot find symbol
+    [javac]         TarjetaBean tarjeta = creaTarjeta(request);            
+    [javac]         ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:146: error: cannot find symbol
+    [javac]         PagoBean pago = null; 
+    [javac]         ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:157: error: cannot find symbol
+    [javac] 		VisaDAOWSService service = new VisaDAOWSService();
+    [javac] 		^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:157: error: cannot find symbol
+    [javac] 		VisaDAOWSService service = new VisaDAOWSService();
+    [javac] 		                               ^
+    [javac]   symbol:   class VisaDAOWSService
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:158: error: cannot find symbol
+    [javac] 		VisaDAOWS dao = service.getVisaDAOWSPort();
+    [javac] 		^
+    [javac]   symbol:   class VisaDAOWS
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:167: error: cannot find symbol
+    [javac] 			pago = (PagoBean) sesion.getAttribute(ComienzaPago.ATTR_PAGO);
+    [javac] 			        ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:205: error: cannot find symbol
+    [javac]         TarjetaBean tarjeta = new TarjetaBean();
+    [javac]         ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:205: error: cannot find symbol
+    [javac]         TarjetaBean tarjeta = new TarjetaBean();
+    [javac]                                   ^
+    [javac]   symbol:   class TarjetaBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:221: error: cannot find symbol
+    [javac]         PagoBean pago = new PagoBean();
+    [javac]         ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/controlador/ProcesaPago.java:221: error: cannot find symbol
+    [javac]         PagoBean pago = new PagoBean();
+    [javac]                             ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class ProcesaPago
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/filtros/CompruebaSesion.java:76: error: cannot find symbol
+    [javac]                 PagoBean pago = (PagoBean) session.getAttribute(ComienzaPago.ATTR_PAGO);
+    [javac]                 ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class CompruebaSesion
+    [javac] /home/roman/Downloads/si2/P1/P1-ws/src/client/ssii2/filtros/CompruebaSesion.java:76: error: cannot find symbol
+    [javac]                 PagoBean pago = (PagoBean) session.getAttribute(ComienzaPago.ATTR_PAGO);
+    [javac]                                  ^
+    [javac]   symbol:   class PagoBean
+    [javac]   location: class CompruebaSesion
+    [javac] 57 errors

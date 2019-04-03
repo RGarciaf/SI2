@@ -15,7 +15,7 @@ sudo apt install -y oracle-java8-installer
 mkdir temp
 cd temp
 
-wget http://apache.cbox.biz//jmeter/binaries/apache-jmeter-5.0.tgz &
+wget http://apache.cbox.biz//jmeter/binaries/apache-jmeter-5.1.tgz &
 wget https://www.vmware.com/go/getplayer-linux &
 wget http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip 
 
@@ -26,7 +26,7 @@ sudo apt install -y postgresql tora libqt4-sql-psql libpostgresql-jdbc-java
 
 tar -xzvf apache-jmeter-5.0.tgz
 mv apache-jmeter-5.0 ../ &
-export PATH="$PATH:$HOME/apache-jmeter-5.0/bin"
+export PATH="$PATH:$HOME/si2/apache-jmeter-5.1/bin"
 
 
 sudo chmod +x VMware-Player-15.0.2-10952284.x86_64.bundl

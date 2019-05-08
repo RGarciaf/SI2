@@ -1,0 +1,3 @@
+Cada una de las pruebas se ejecutará, unicamente, el numero de veces que indique el bucle. Por lo tanto, despues de la primera prueba se veran 5 pagos; despues de la segunda 15 y despues de la ultima 16.
+
+En el caso de marcar 0% en Error pero no haberse realizado todos los pagos esperados, se puede usar una herramienta que tiene Jmeter llamada "View Results Tree" en la que podremos ver mas informacion de cada una de las peticiones realizadas en los tests ejecutados

@@ -1,0 +1,20 @@
+Los comandos de administracion se deben ejecutar desde la maquina que administra los nodos y todo el sistema distribuido: si2srv02
+
+
+
+Creamos los nodos ssh
+o (Node01): asadmin create-node-ssh --sshuser si2 --nodehost 10.9.3.2 --nodedir /opt/glassfish4 Node01
+o (Node02): asadmin create-node-ssh --sshuser si2 --nodehost 10.9.3.3 --nodedir /opt/glassfish4 Node02
+
+Creamos el cluster: asadmin create-cluster <nombre del cluster>
+
+Creamos dos instancias asociadas a los nodos:
+o asadmin create-instance --cluster SI2Cluster --node Node01 Instance01
+o asadmin create-instance --cluster SI2Cluster --node Node02 Instance02
+
+
+
+as.host=10.1.7.1
+db.host=10.1.7.1
+db.client.host=10.1.7.1
+as.target=<nombre del cluster>
